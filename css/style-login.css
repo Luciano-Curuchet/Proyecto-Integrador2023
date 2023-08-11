@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background: url(/images/fondo-registro.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 20px;
+}
+
+.input__container input {
+  height: 30px;
+  width: 200px;
+  border: 2px solid #36bba6;
+}
+
+.input__container i {
+  font-size: 14px;
+}
+
+.btn-form {
+  padding: 5px 20px;
+  background-color: wheat;
+  font-weight: 600;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+  font-size: 15px;
+}
